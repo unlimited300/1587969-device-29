@@ -1,0 +1,89 @@
+/* Variables */
+
+:root {
+    --basic-black: #000000;
+    --basic-grey: #464646;
+    --basic-dark: #363636;
+    --basic-half-grey: #7E7E7E;
+    --basic-grey-light: #E5E5E5;
+    --basic-white: #ffffff;
+  
+    --special-yellow-dark: #F0C52E;
+    --special-yellow-light: #F7E296;
+    --special-green: #91C92F;
+  }
+  
+  /* Global */
+body{
+    min-width: 1160px;
+    margin: 50px 20px;
+    padding: 0;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    
+    font-weight: 700;
+    color: var(--basic-white);
+    
+    
+}
+a {
+    text-decoration: none;
+    color: #000;
+
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+.logo1{
+  margin-left: 20px;
+
+}
+.navigation {
+    height: 300px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    background-color: var(--special-yellow-light);
+}
+
+ul.site-navigation li {
+  display: inline;
+}
+li{
+  list-style-type: none;
+}
+li:hover{
+  opacity: 0.5;
+}
+
+.search{
+    background-color: var(--special-yellow-light);
+    border: none; /* Параметры рамки */
+}
+input[type="search"] {
+  border: none; /* Убираем рамку */
+  outline: none; /* Убираем свечение в Chrome и Safari */
+  -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+  width: 274px; /* Ширина поля */
+  vertical-align: middle; /* Выравнивание по середине */
+ }
+.search:hover{
+
+}
+
+.search:active{
+
+}
+
+.nav-bar:hover{
+  opacity: .5;
+}
+.navigation:hover{
+  
+}
+  
+.main-navigation-wrapper {
+    
+}
